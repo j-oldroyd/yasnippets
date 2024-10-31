@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: reals
+# key: ;rr
+# condition: (and (texmathp) (quote auto))
+# group: math
+# --
+\\mathbb{R}

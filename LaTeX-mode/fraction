@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: fraction
+# key: ;/
+# condition: (and (texmathp) (quote auto))
+# group: math
+# --
+\\frac{${1:numerator}}{${2:denominator}}

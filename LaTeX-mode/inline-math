@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Inline math
+# key: ;mm
+# condition: (and (not (texmathp)) (quote auto))
+# group: math
+# --
+\\( $1 \\)$0

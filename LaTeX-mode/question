@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: question
+# key: ;q
+# condition: (and (not (texmathp)) (quote auto))
+# group: text
+# --
+\\question[$1]\\label{ques:${2:enter label}}
+$0

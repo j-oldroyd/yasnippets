@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: naturals
+# key: ;nn
+# condition: (and (texmathp) (quote auto))
+# group: math
+# --
+\\mathbb{N}

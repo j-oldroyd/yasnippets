@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: Display math
+# key: ;dm
+# condition: (and (not (texmathp)) (quote auto))
+# group: math
+# --
+\\[
+$1
+\\]
+$0
