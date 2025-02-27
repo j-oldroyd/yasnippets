@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: vspace
+# key: ;vsp
+# condition: (and (not (texmathp)) 'auto)
+# group: text
+# --
+\\vspace{0.5cm}$0

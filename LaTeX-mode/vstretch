@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: vstretch
+# key: ;vss
+# group: text
+# condition: (and (not (texmathp)) 'auto)
+# --
+\\vspace{\\stretch{${1:1}}}$0

@@ -4,4 +4,4 @@
 # condition: (and (not (texmathp)) (quote auto))
 # group: math
 # --
-\\( $1 \\)$0
+\\( $1 \\)
