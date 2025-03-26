@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: subsection
+# key: ssec
+# group: pretext
+# --
+<subsection xml:id="subsection-${2:${1:$(string-for-pretext-labels yas-text)}}">
+  <title>$1</title>
+  $3
+</subsection>

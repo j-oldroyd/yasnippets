@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: section
+# key: sec
+# group: pretext
+# --
+<section xml:id="section-${2:${1:$(string-for-pretext-labels yas-text)}}">
+  <title>$1</title>
+  $3
+</section>
