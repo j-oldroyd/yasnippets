@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: example
+# key: exm
+# group: pretext
+# --
+<example xml:id="example-${2:${1:$(string-for-pretext-labels yas-text)}}">
+  <title>$1</title>
+  <statement>
+    $3
+  </statement>
+</example>
