@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: question
-# key: ;q
+# key: ;qq
 # condition: (and (not (texmathp)) (quote auto))
 # group: text
 # --

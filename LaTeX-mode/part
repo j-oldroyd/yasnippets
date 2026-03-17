@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-# name: parts
-# key: ;p
+# name: part
+# key: ;qp
 # condition: (and (not (texmathp)) (quote auto))
 # group: text
 # --
-\\part[$1]\\label{part:${2:enter label}}
+\\qpart[$1]\\label{part:${2:enter label}}
