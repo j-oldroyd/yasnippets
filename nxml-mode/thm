@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: theorem
+# key: thm
+# group: pretext
+# --
+<theorem xml:id="theorem-${2:${1:$(string-for-pretext-labels yas-text)}}">
+  <title>$1</title>
+  <statement>
+    $3
+  </statement>
+</theorem>
