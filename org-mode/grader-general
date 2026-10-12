@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: org-grader-general
+# key: ;ggg
+# --
+
+- [ ] Correct answer :: +$1
+- [ ] Correct justification :: +$2
+- [ ] Tried something relevant :: +$3
+- [ ] No significant work :: +$4
+- [ ] Notation error(s) :: -$5

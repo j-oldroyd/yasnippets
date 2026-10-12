@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: EQuation Numbered
+# key: ;eqn
+# condition: (and (not (texmathp)) (quote auto))
+# group: math
+# --
+\\begin{equation}
+\\label{eq:$1}
+$2
+\\end{equation}

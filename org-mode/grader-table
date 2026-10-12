@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: org-grader-table
+# key: ;ggt
+# --
+
+#+ATTR_LATEX: :environment gradetbl
+| Rubric item | Points |
+|----------------------|
+| $1 | +$2 |
+| $3 | +$4 |
+
+- [ ] $1 :: +$2
+- [ ] $3 :: +$4
+- [ ] Tried something relevant :: +$5
+- [ ] No significant work :: +$6
+- [ ] Notation error(s) :: -$7

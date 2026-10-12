@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: org-grader-parts
+# key: ;ggp
+# --
+
+- [ ] (a) Correct solution :: $1
+- [ ] (b) Correct solution :: $2
+- [ ] Notation error(s) :: $3
+- [ ] Algebra error(s) :: $4
+
+** Comments
+#+ATTR_LATEX: :options [label=(\alph*)]
+a) $0

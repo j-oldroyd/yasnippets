@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: EQuation Unnumbered
+# key: ;equ
+# condition: (and (not (texmathp)) (quote auto))
+# group: math
+# --
+\\begin{equation*}
+$1
+\\end{equation*}
