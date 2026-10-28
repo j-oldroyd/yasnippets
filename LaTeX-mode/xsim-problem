@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: xsim problem snippet
+# key: ;xxp
+# --
+
+\begin{exercise}[ID=ch$1sec$2:$3, difficulty=${4:$$(yas-completing-read "Choose difficulty: " '("easy" "medium" "hard"))}, topics={sec$2, $5}]
+$0
+\end{exercise}

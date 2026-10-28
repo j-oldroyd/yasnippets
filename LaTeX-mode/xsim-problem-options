@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: xsim problem options
+# key: ;xopt
+# --
+[ID=ch$1sec$2:$3, difficulty=${4:$$(yas-completing-read "Choose difficulty: " '("easy" "medium" "hard"))}, topics={sec$2, $5}]
+$0
