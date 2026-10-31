@@ -2,4 +2,4 @@
 # name: xsim problem reference
 # key: ;xref
 # --
-\ref{ex:\GetExerciseIdForProperty{ID}{${1:$$(yas-choose-value (get-exercise-labels))}}}$0
+\ref{ex:\GetExerciseIdForProperty{ID}{${1:$$(yas-choose-value (my/get-exercise-labels))}}}$0
