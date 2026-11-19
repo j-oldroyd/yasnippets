@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: org-grader-rubric-item
+# key: ;rub
+# --
+
+`(org-insert-subheading (org-current-level))` $1 `(org-set-tags-command)`
+:PROPERTIES:
+:RUBRIC_ID: q$2
+:MAX: $3
+:END:
