@@ -3,7 +3,7 @@
 # key: ;rub
 # --
 
-`(org-insert-subheading (org-current-level))` $1 `(org-set-tags-command)`
+`(make-string 2 ?*)` $1 `(org-set-tags-command)`
 :PROPERTIES:
 :RUBRIC_ID: q$2
 :MAX: $3
